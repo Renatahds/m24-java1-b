@@ -32,19 +32,19 @@ public class Abelha extends Actor
      */
     public void act()
     {
-<<<<<<< HEAD
+
         // Add your action code 
 
         // se teclar para esquerda , gira -10º
         if (Greenfoot.isKeyDown("left")){
             turn (-5);
-=======
+
         // Add your action code here
         move(1);
         // se teclar para esquerda , gira -10º
         if (Greenfoot.isKeyDown("left")){
             turn (-10);
->>>>>>> 493d8642ab6bd61150893b116c77b79dc579aa0b
+
 
         }
         // se teclar para direita , gira 10º
@@ -68,7 +68,7 @@ public class Abelha extends Actor
     /**
      * 
      */
-    public boolean isNaDireita(){
+    boolean isNaDireita(){
         if(getX() > getWorld().getWidth()-10){
             return true;
         }
@@ -122,7 +122,7 @@ public class Abelha extends Actor
     }
 
     /**
-<<<<<<< HEAD
+
      * 
      */
     public void capturaMosca(){
@@ -164,7 +164,7 @@ public class Abelha extends Actor
         getWorld().showText("Score: " + score,700,20);
     }
 }
-=======
+
      * Método que verifica se está na direita do mundo
      */
     public boolean isNaDireita(){ 
@@ -236,4 +236,3 @@ public class Abelha extends Actor
 } 
 
  
->>>>>>> 493d8642ab6bd61150893b116c77b79dc579aa0b
