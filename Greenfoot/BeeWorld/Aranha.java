@@ -6,7 +6,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (Renata hds) 
  * @version (04-05-2024)
  */
+<<<<<<< HEAD
 public class Aranha extends inseto
+=======
+public class Aranha extends Inseto
+>>>>>>> 493d8642ab6bd61150893b116c77b79dc579aa0b
 {
     /**
      * Act - do whatever the Aranha wants to do. This method is called whenever
@@ -58,5 +62,6 @@ public class Aranha extends inseto
         if (ab!=null){
             turnTowards(ab.getX(), ab.getY());
         }
+        verificarCerto();
     }
 }
