@@ -11,7 +11,7 @@ public class EstudanteTester {
 		est01.setId(1);
 		est01.setMedia(5.5f);
 		//Mostrando valores
-		if ("Renata".equals"Roberto") )
+		if ("Renata".equals"Roberta") )
 		System.out.println ("Nome: " + est01.getNome());
 		
 		System.out.println("Documento: " +est01.getDocumento());
